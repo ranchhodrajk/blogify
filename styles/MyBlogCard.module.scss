@@ -1,0 +1,111 @@
+.mainMyBlogCardContainer{
+    .oneWrap {
+        margin: 60px 20px;
+        .left {
+          position: relative;
+          padding-bottom: 60%;
+          width: 100%;
+          overflow: hidden;
+          .imgDark {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            background-color: rgba(0, 0, 0, 0.151);
+            transition: background-color 0.15s;
+            cursor: pointer;
+            &:hover {
+              background-color: rgba(0, 0, 0, 0);
+              transition: background-color 0.15s;
+            }
+          }
+          .imgClass {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+          }
+        }
+        .right {
+          display: flex;
+          height: 100%;
+          flex-direction: column;
+          align-content: center;
+          justify-content: center;
+          .rightTitle {
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            a {
+              color: black;
+              &:hover {
+                color: #ee4b4f;
+              }
+            }
+          }
+          .group {
+            display: flex;
+            padding: 16px 0;
+            .userName {
+              color: grey;
+            }
+            .createDate {
+              color: grey;
+              font-style: italic;
+              display: flex;
+              align-items: center;
+              .simple{
+                margin-left: 10px;
+                margin-right: 5px;
+              }
+              .timebox{
+    
+              }
+            }
+          }
+          .des {
+            padding-bottom: 16px;
+            color: grey;
+          }
+          .readmore {
+            display: flex;
+            color: grey;
+            .grow{
+              flex-grow: 1;
+              display: flex;
+              .like {
+                margin-right: 20px;
+                display: flex;
+                .likeSym {
+                  margin-right: 5px;
+                  &:hover {
+                    cursor: pointer;
+                  }
+                }
+              }
+              .comment {
+                display: flex;
+                .commentSym {
+                  margin-right: 5px;
+                  &:hover {
+                    cursor: pointer;
+                  }
+                }
+              }
+            }
+            .delete{
+              font-size: 16px;
+              padding-right: 10px;
+              color: rgb(255, 103, 103);
+              &:hover{
+                color: rgb(255, 41, 41);
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+}

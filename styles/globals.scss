@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.slick-arrow{
+  display: none;
+}
+.login-form {
+  .passKeep {
+    margin-bottom: 20px;
+    .ant-form-item-control-input {
+      min-height: 1px;
+      .ant-form-item-control-input-content {
+        display: flex !important;
+        justify-content: space-between;
+        line-height: 16px;
+        label {
+          color: white;
+        }
+      }
+    }
+    // justify-content: space-between !important;
+  }
+}
+.passCustome {
+  margin-bottom: 20px !important;
+}
+.slick-slide {
+  div {
+    .slickImg {
+      margin-right: 10px !important;
+      // padding: 0 10px !important;
+    }
+  }
+}
+.customTab {
+  .ant-tabs-nav-wrap {
+    width: 100%;
+    .ant-tabs-nav-list {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .ant-tabs-tab {
+        padding-top: 0px;
+
+        .ant-tabs-tab-btn {
+          // font-size: 18px;
+          color: Black;
+        }
+      }
+      .ant-tabs-tab-active {
+        .ant-tabs-tab-btn {
+          color: #ee4b4f;
+        }
+      }
+    }
+  }
+}
+.ant-affix {
+  z-index: 999 !important;
+}
+.ant-btn-default {
+  &:hover {
+    color: #ee4b4f !important;
+    border-color: #ee4b4f !important;
+  }
+}
+.mySpinCustom {
+  .ant-spin {
+    .ant-spin-dot {
+      .ant-spin-dot-item {
+        background-color: #ee4b4f !important;
+      }
+    }
+  }
+}
+.ant-popover-inner-content{
+  padding: 0px 0px !important;
+}
+.redHeart {
+  .anticon-heart {
+    color: #ee4b4f !important;
+  }
+}
+
+.ant-list-items{
+  max-height: 220px;
+  overflow: auto;
+}
+.ant-comment-content-author{
+  margin-bottom: 0px !important;
+  .ant-comment-content-author-name{
+    width: 100%;
+  }
+}
+.ant-modal-content{
+  .ant-modal-body{
+    border-radius: 10px !important;
+    background-color: rgba(218, 218, 218, 0.295);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .ant-result-info{
+    padding: 0px;
+  }
+}

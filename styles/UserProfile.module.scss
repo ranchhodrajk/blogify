@@ -1,0 +1,77 @@
+.profileContaint{
+    // width: 20vw;
+    .upper{
+        position: relative;
+        padding: 60px 160px;
+        background-color: rgb(39, 39, 39);
+        .upperAbso{
+            position: absolute;
+            width: 100%;
+            top: 27%;
+            left: 0%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .upperName{
+                color: white;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            .upperProfile{
+                img{
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    border: 6px solid rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+    .lower{
+        padding: 40px 20px;
+        background-color: white;
+        .lowerEmail{
+            text-align: center;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .lowerDate{
+            text-align: center;
+            font-size: 14px;
+            color: rgb(150, 150, 150);
+        }
+        .lowerBtn{
+            display: flex;
+            justify-content: center;
+            margin-top: 16px;
+            button{
+                // background: grey;
+                border: none;
+            }
+        }
+    }
+    .profileList{
+        margin-top: 10px;
+        a{
+            color: rgb(32, 32, 32);
+        }
+        .myProfile{
+            display: flex;
+            padding: 5px 10px;
+            background-color: rgb(235, 235, 235);
+            border-radius: 3px;
+            margin: 5px 0;
+            &:hover{
+                background-color: rgb(223, 223, 223);
+                cursor: pointer;
+                color: #424242;
+            }
+            .myProfileIcon{
+                margin-right: 10px;
+            }
+            .myProfileLabel{
+
+            }
+        }
+    }
+} 

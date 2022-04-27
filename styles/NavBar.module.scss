@@ -1,0 +1,54 @@
+.mainNavBar{
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0;
+        font-size: 16px;
+        line-height: 16px;
+        .logo{
+            a{
+                color: black;
+                display: flex;
+                img{
+    
+                }
+                .name{
+                    font-size: 34px;
+                    font-weight: bold;
+                    line-height: 32px;
+                }
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            .menuItem{
+                margin: 0 8px;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+            .menuBtn{
+                display: flex;
+                align-items: center;
+                .menuItem{
+                    margin: 0 8px;
+                }   
+            }
+        }
+    }
+}
+  
+@media screen and (max-width: 576px) {
+
+    .mainNavBar{
+      display: none;
+    }  
+  
+}

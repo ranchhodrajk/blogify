@@ -1,0 +1,53 @@
+.mainWriteBlogContainer{
+    .oneWrap{
+        padding: 40px 0;
+        .title{
+            margin-bottom: 10px ;
+            input{
+                font-size: 42px;
+                border: none;
+                &:focus{
+                    box-shadow: none;
+                    outline: none;
+                    border-color: transparent;
+                    border-left: 1px solid rgb(165, 165, 165); 
+                }
+            }
+        }
+        .body{
+            margin-bottom: 10px ;
+            textarea{
+                font-size: 20px;
+                border: none;
+                height: 220px !important;
+                &:focus{
+                    box-shadow: none;
+                    outline: none;
+                    border-color: transparent; 
+                    border-left: 1px solid rgb(165, 165, 165); 
+                }
+            }
+        }
+        .tag{
+            margin-bottom: 20px ;
+            input{
+                font-size: 20px;
+                border: none;
+                &:focus{
+                    box-shadow: none;
+                    outline: none;
+                    border-color: transparent; 
+                    border-left: 1px solid rgb(165, 165, 165); 
+                }
+            }
+        }
+        .btn{
+
+            .menuItem{
+                button{
+                    width: 12%;
+                }
+            }
+        }
+    }
+}
